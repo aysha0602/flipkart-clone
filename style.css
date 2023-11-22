@@ -39,7 +39,8 @@ svg {
 
 .search input {
   height: 40px;
-  width: 458.6px;
+  min-width: 458.6px;
+  width: 700px;
   grid-column: 2/2;
   grid-row: 1;
   border: none;
@@ -56,6 +57,7 @@ input::placeholder {
 }
 .after-search {
   display: flex;
+  margin-left: 17%;
 }
 
 .login ,.cart, .become-seller, .settings{
