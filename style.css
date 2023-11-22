@@ -1,0 +1,115 @@
+* {
+  padding: 0%;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(236, 233, 233);
+  font-family: inter_regular, fallback-inter_regular, Arial, sans-serif;
+}
+
+nav {
+  display: flex;
+  padding: 12px 28px;
+  background-color: white;
+}
+
+.logo {
+  margin-right: 36px;
+}
+
+svg {
+  grid-row: 1;
+  grid-column: 1;
+  z-index: 1;
+  align-self: center;
+  justify-self: center;
+}
+
+.search {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 502px;
+  height: 40px;
+  grid-template-rows: 1fr;
+  
+  
+}
+
+.search input {
+  height: 40px;
+  width: 458.6px;
+  grid-column: 2/2;
+  grid-row: 1;
+  border: none;
+  padding-top:3px ;
+}
+.search, .search input{
+  background-color: rgb(219 227 234);
+  border-radius: 7px;
+}
+
+input::placeholder {
+  font-size: 17px;
+  
+}
+.after-search {
+  display: flex;
+}
+
+.login ,.cart, .become-seller, .settings{
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #333;
+}
+
+
+.login-logo img, .cart-logo img,.seller-logo img{
+  height: 24px;
+  width: 24px;
+  margin-right: 8px;
+}
+
+.text{
+  font-size: 17px;
+  line-height: 24px;
+  text-align: center;
+}
+.dropdown{
+  width: 12px;
+  height: 12px;
+  margin-left: 8px;
+}
+.settings-logo img{
+  padding: 8px;
+}
+.settings{
+  padding-right: 20px;
+}
+/* pictures nav bar */
+.pictures{
+  display: flex;
+  background-color: white;
+  margin: 9px 16px;
+  justify-content: space-around;
+}
+.pictures img{
+  height: 64px;
+  width: 64px;
+  margin-bottom: 12px;
+}
+.pictures div{
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pictures span{
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+}
